@@ -15,12 +15,12 @@ copyright = "&copy;2020 Szymon Kowaliński"
 
   # Metadata for search engines and social sharing
   author = "Szymon Kowaliński"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  description = "Personal site of Szymon Kowaliński"
   shareImage = "images/social.jpg"
   twitterHandle = "onepagelove"
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "images/favicon.ico"
   [params.custom.css]
     enable = true
 
@@ -34,10 +34,10 @@ copyright = "&copy;2020 Szymon Kowaliński"
       position = "center center"
 
     # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
+#    [params.visual.video]
+#      enable = false
+#      mute = true
+#      file = "videos/background.mp4"
       # youtubeId = "dk9uNWPP7EA"
 
   # Links
