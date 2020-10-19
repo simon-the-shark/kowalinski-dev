@@ -11,6 +11,11 @@ googleAnalytics = ""
 # Copyright
 copyright = "&copy;2020 Szymon Kowaliński"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 
   # Metadata for search engines and social sharing
@@ -48,8 +53,9 @@ copyright = "&copy;2020 Szymon Kowaliński"
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
+        text = "<i class='fas fa-code-branch' style='font-style: normal;'></i> Projects"
+        url = "/luctus-urna"
+        dotted = true
 
       [[params.links.list1.link]]
         text = "Email"
