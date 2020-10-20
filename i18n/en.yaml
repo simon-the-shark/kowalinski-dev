@@ -1,0 +1,22 @@
+- id: header1
+  translation: "My work"
+- id: header2
+  translation: "Connect"
+- id: header3
+  translation: "Navigation"
+- id: home
+  translation: "Home"
+- id: version
+  translation: " wersja"
+- id: email
+  translation: "Email"
+- id: about-me
+  translation: "About me"
+- id: projects
+  translation: "Projects"
+- id: github
+  translation: "Github"
+- id: instagram
+  translation: "Instagram"
+- id: facebook
+  translation: "Facebook"

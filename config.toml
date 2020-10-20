@@ -1,6 +1,5 @@
 # Site settings
 baseURL = "https://kowalinski.dev"
-languageCode = "pl"
 title = "Szymon Kowaliński"
 theme = "hugo-split"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
@@ -11,92 +10,44 @@ googleAnalytics = ""
 # Copyright
 copyright = "&copy;2020 Szymon Kowaliński"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "en"
 
 [params]
-
-  # Metadata for search engines and social sharing
   author = "Szymon Kowaliński"
-  description = "Personal site of Szymon Kowaliński"
   shareImage = "images/social.jpg"
   twitterHandle = "onepagelove"
 
-  # Favicon
   favicon = "images/favicon.ico"
   [params.custom.css]
     enable = true
 
-  # Section - Visual
   [params.visual]
-
-    # Image
     [params.visual.image]
       enable = true
       file = "images/avatar.jpeg"
       position = "center center"
 
-    # Video
-#    [params.visual.video]
-#      enable = false
-#      mute = true
-#      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
 
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "My work"
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/english"
+    weight = 1
+    description = "Szymon Kowaliński, Django, Python and Flutter, Dart software developer. Academic Highschool of Wrocław University of Technology"
 
-      [[params.links.list1.link]]
-        text = "<i class='fas fa-code-branch' style='font-style: normal;'></i> Projects"
-        url = "/projects"
+  [languages.pl]
+    languageName = "Polski"
+    contentDir = "content/polish"
+    weight = 2
+    description = "Szymon Kowaliński. Programista Django, Python i Flutter, Dart. Liceum Akademickie Politechniki Wrocławskiej"
 
-      [[params.links.list1.link]]
-        text = "<i class='fab fa-github fa-lg' style='font-style: normal;'></i> Github"
-        url = "https://github.com/Simon-the-Shark"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-      [[params.links.list1.link]]
-        text = "About me"
-        url = "/about"
 
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Connect"
-
-      [[params.links.list2.link]]
-        text = "<i class='fa fa-envelope fa-lg' style='font-style: normal;'></i> Email"
-        url = "mailto:personal@kowalinski.dev"
-
-      [[params.links.list2.link]]
-        text = "Instagram"
-        url = "https://www.instagram.com/simon_rekin/"
-
-      [[params.links.list2.link]]
-        text = "Facebook"
-        url = "https://www.facebook.com/szymekkowalinski"
-
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Languages"
-
-      [[params.links.list3.link]]
-        text = "Polski"
-        url = "#"
-
-#      [[params.links.list3.link]]
-#        text = "Link Two"
-#        url = "#"
-#
-#      [[params.links.list3.link]]
-#        text = "Link Three"
-#        url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

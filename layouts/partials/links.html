@@ -1,21 +1,39 @@
 <script src="https://kit.fontawesome.com/6cfdb01cc0.js" crossorigin="anonymous"></script>
 <div class="split-lists">
-
-    {{ range $key, $value := .Site.Params.links }}
-    {{ range $key, $list := $value }}
-
-    {{ if $list.link }}
     <div class="split-list">
-        <h3>{{ $list.heading }}</h3>
+        <h3>{{ T "header1" }}</h3>
         <ul>
-            {{ range $list.link }}
-            <li><a href="{{ .url }}">{{ .text | safeHTML }}</a></li>
+            <li>
+                <a href="{{.LanguagePrefix }}/projects"><i class='fas fa-code-branch' style='font-style: normal;'></i>
+                    {{T "projects"}}</a>
+            </li>
+            <li><a href="https://github.com/Simon-the-Shark"><i class='fab fa-github fa-lg'
+                                                                style='font-style: normal;'></i> {{T "github"}}</a></li>
+            <li><a href="{{.LanguagePrefix }}/about">{{T "about-me" }}</a></li>
+        </ul>
+    </div>
+    <div class="split-list">
+        <h3>{{ T "header2" }}</h3>
+        <ul>
+            <li>
+                <a href="mailto:kontakt@kowalinski.dev"><i class='fa fa-envelope fa-lg' style='font-style: normal;'></i>
+                    {{ T "email" }}</a>
+            </li>
+            <li><a href="https://www.instagram.com/simon_rekin/">{{ T "instagram" }}</a></li>
+            <li><a href="https://www.facebook.com/szymekkowalinski">{{ T "facebook" }}</a></li>
+        </ul>
+    </div>
+    <div class="split-list">
+        <h3>{{ T "header3" }}</h3>
+        <ul>
+            <li><a href="{{.Site.BaseURL | relLangURL }}">{{ T "home" }}</a></li>
+            {{ if .IsTranslated }}
+            {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }} {{T "version"}}</a>
+            </li>
+            {{ end }}
             {{ end }}
         </ul>
     </div>
-    {{ end }}
-
-    {{ end }}
-    {{ end }}
-
 </div>

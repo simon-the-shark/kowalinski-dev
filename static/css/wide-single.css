@@ -34,9 +34,9 @@ body.page-template-page-fullsingle-split {
 
 @media only screen and (min-width: 769px) {
     .split-content {
-        left: 33%;
-        transform: translate(-33%, 0);
-        width: 85% !important;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 80% !important;
     }
 
     .fs-split .split-content .split-content-vertically-center {

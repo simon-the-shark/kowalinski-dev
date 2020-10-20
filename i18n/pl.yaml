@@ -1,0 +1,22 @@
+- id: header1
+  translation: "Moje prace"
+- id: header2
+  translation: "Kontakt"
+- id: header3
+  translation: "Nawigacja"
+- id: home
+  translation: "Strona główna"
+- id: version
+  translation: " version"
+- id: email
+  translation: "Email"
+- id: about-me
+  translation: "O mnie"
+- id: projects
+  translation: "Projekty"
+- id: github
+  translation: "Github"
+- id: instagram
+  translation: "Instagram"
+- id: facebook
+  translation: "Facebook"
