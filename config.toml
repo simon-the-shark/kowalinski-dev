@@ -37,7 +37,7 @@ DefaultContentLanguage = "en"
     description = "Szymon Kowaliński, Django, Python and Flutter, Dart software developer. Academic Highschool of Wrocław University of Technology"
 
   [languages.pl]
-    languageName = "Polski"
+    languageName = "Polska wersja"
     contentDir = "content/polish"
     weight = 2
     description = "Szymon Kowaliński. Programista Django, Python i Flutter, Dart. Liceum Akademickie Politechniki Wrocławskiej"

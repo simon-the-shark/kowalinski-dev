@@ -6,8 +6,6 @@
   translation: "Nawigacja"
 - id: home
   translation: "Strona główna"
-- id: version
-  translation: " version"
 - id: email
   translation: "Email"
 - id: about-me
