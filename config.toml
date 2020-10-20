@@ -50,54 +50,56 @@ copyright = "&copy;2020 Szymon Kowaliński"
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Connect"
+      heading = "My work"
 
       [[params.links.list1.link]]
         text = "<i class='fas fa-code-branch' style='font-style: normal;'></i> Projects"
-        url = "/luctus-urna"
-        dotted = true
+        url = "/about"
+#        dotted = true
 
       [[params.links.list1.link]]
-        text = "Email"
-        url = "#"
+        text = "<i class='fab fa-github fa-lg' style='font-style: normal;'></i> Github"
+        url = "https://github.com/Simon-the-Shark"
+#        dotted = true
 
       [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+        text = "About me"
+        url = "/about"
+#        dotted = true
 
   # Links List #2
   [[params.links]]
     [params.links.list2]
-      heading = "Social"
+      heading = "Connect"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
+        text = "<i class='fa fa-envelope fa-lg' style='font-style: normal;'></i> Email"
+        url = "mailto:personal@kowalinski.dev"
 
       [[params.links.list2.link]]
         text = "Instagram"
-        url = "#"
+        url = "https://www.instagram.com/simon_rekin/"
 
       [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+        text = "Facebook"
+        url = "https://www.facebook.com/szymekkowalinski"
 
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Network"
+      heading = "Languages"
 
       [[params.links.list3.link]]
-        text = "Link One"
+        text = "Polski"
         url = "#"
 
-      [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+#      [[params.links.list3.link]]
+#        text = "Link Two"
+#        url = "#"
+#
+#      [[params.links.list3.link]]
+#        text = "Link Three"
+#        url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
