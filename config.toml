@@ -54,18 +54,15 @@ copyright = "&copy;2020 Szymon Kowaliński"
 
       [[params.links.list1.link]]
         text = "<i class='fas fa-code-branch' style='font-style: normal;'></i> Projects"
-        url = "/about"
-#        dotted = true
+        url = "/projects"
 
       [[params.links.list1.link]]
         text = "<i class='fab fa-github fa-lg' style='font-style: normal;'></i> Github"
         url = "https://github.com/Simon-the-Shark"
-#        dotted = true
 
       [[params.links.list1.link]]
         text = "About me"
         url = "/about"
-#        dotted = true
 
   # Links List #2
   [[params.links]]
