@@ -18,3 +18,5 @@
   translation: "Instagram"
 - id: facebook
   translation: "Facebook"
+- id: twitter
+  translation: "Twitter"
