@@ -12,11 +12,12 @@ copyright = "&copy;2020 Szymon Kowaliński"
 
 defaultContentLanguageInSubdir = false
 DefaultContentLanguage = "en"
+custom_css = ["css/wide-single.css"]
 
 [params]
   author = "Szymon Kowaliński"
-  shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  shareImage = "images/avatar.jpg"
+  twitterHandle = "kowalinskidev"
 
   favicon = "images/favicon.ico"
   [params.custom.css]
