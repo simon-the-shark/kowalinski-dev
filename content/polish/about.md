@@ -13,7 +13,7 @@ title = "O mnie"
  
  Since then, I've made several Flutter projects and fallen in love again. Amongst all the technologies I got any contact with for the past few years, I find Flutter the first as gratifying as Django.  
  
- # Where I'm now  
+# Where I'm now  
  At the moment, I'm a high school student, looking forward to some commercial experience in software development. Especially in web and mobile development, but I'm not afraid of exploring new technologies of any kind. I even find myself slightly experienced in this field.
   
   
