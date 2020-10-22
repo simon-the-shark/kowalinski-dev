@@ -1,5 +1,7 @@
 {{ define "main" }}
-<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/wide-single.css"/>
+{{ range .Site.Params.custom_css -}}
+<link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
 {{ partial "bio" . }}
 {{ partial "links" .}}
 {{ end }}
