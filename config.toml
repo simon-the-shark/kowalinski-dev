@@ -17,7 +17,7 @@ DefaultContentLanguage = "en"
   author = "Szymon Kowaliński"
   shareImage = "images/avatar.jpg"
   twitterHandle = "kowalinskidev"
-  custom_css = ["css/wide-single.html"]
+  css = ["css/wide-single.css"]
 
   favicon = "images/favicon.ico"
   [params.custom.css]
