@@ -1,5 +1,6 @@
 html {
     background-color: rgba(71, 190, 199, 5);
+    overflow-x: hidden;
 }
 
 body.page-template-page-fullsingle-split {
@@ -8,6 +9,7 @@ body.page-template-page-fullsingle-split {
 
 .fs-split {
     position: relative;
+    width: 100%;
 }
 
 .fs-split .split-image {

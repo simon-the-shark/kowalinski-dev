@@ -21,7 +21,8 @@ Besides [the app](https://github.com/Simon-the-Shark/ScrabbleScoreMobile), proje
 
 # Bookaseat
 ![Bookaseat Preview](/projects/bookaseat.png)  
-Mobile application for restaurant startup. Again, [Maks](https://skica.dev) was responsible for backend, whereas I've made two Flutter applications (bussiness and customer).  
+Mobile application for restaurant startup. I've made two Flutter apps (business and customer), while [Maks](https://skica.dev) was responsible for backend and advised on the UX/UI aspects.
+ 
 It's my first flutter application.
 
 *Application has not been released yet*
@@ -40,7 +41,7 @@ Prepared in a week for the [HackHeroes](http://hackheroes.pl) hackathon with the
 # [Podręczniki z Samorządem](https://podreczniki.skica.dev)
 
 ![Podręczniki z Samorządem Preview](/projects/podreczniki.png)  
-Until now, used textbooks in my school were traded wildly - random posts with price lists on the Facebook group were commonplace, and the organization of the fair was always an overwhelming task. In September, long conversations and scheduling meetings with other random students couldn’t be avoided to get the whole set of books.
+Until now, used textbooks in our school were traded wildly - random posts with price lists on the Facebook group were commonplace, and the organization of the fair was always an overwhelming task. In September, long conversations and scheduling meetings with other random students couldn’t be avoided to get the whole set of books.
 
 Not anymore! [Maks](https://skica.dev) and I designed a platform that connects buyers with owners of unnecessary textbooks - but this is not a regular shopping website. An important role in the transaction is played by the Student Council, which is a trusted third party, accepting textbooks for sale, assigning them grades and processing orders. Students can easily compare prices and choose the right set for them.
 
@@ -54,7 +55,8 @@ Tens of thousands of tourists come to Wrocław every month. But none of them has
 
 As part of the [Zwolnieni z Teorii](https://zwolnienizteorii.pl/) competition, our team is preparing an application that allows users to discover exciting places selected by native Wrocław residents.
 
-I made the Flutter app and [Maks](https://skica.dev) is responsible for backend and advices on the UX/UI aspects.
+ Again, [Maks](https://skica.dev) was responsible for backend, whereas I made the Flutter application. 
+
 
 *Project is still in inplementation stage*  
 
@@ -64,7 +66,7 @@ I made the Flutter app and [Maks](https://skica.dev) is responsible for backend 
 ![BetterMemorySugarBot Preview](/projects/bettermemorysugarbot.png)  
 It was created for personal need of main in order to receive notifications, handful in managing my first type diabetes. I don't use it anymore, because I've changed my pump and the systems I use.   
 
-One of my first Django real-world app. Also it's a DIY project and I wanted to use only completely free resources, so it's definitely overcomplicated. Nevertheless it has complete tutorial with screenshots and some functional tests.
+One of my first Django real-world app. Also it's a DIY project, so I wanted to use only completely free resources. And that's why it's definitely overcomplicated. Nevertheless it has complete tutorial with screenshots and some functional tests.
 
 ***Used technologies: Django, Bootstrap, Heroku, Atrigger, IFTTT***
 
